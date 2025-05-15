@@ -109,7 +109,7 @@ a:active {
 }
 
 .parallax {
-    background-image: url('background.jpg'); /* Замініть на шлях до вашого зображення */
+    background-image: url('img/background.jpg'); /* Замініть на шлях до вашого зображення */
     background-attachment: fixed; /* Ефект паралаксу */
     background-position: center;
     background-repeat: no-repeat;
