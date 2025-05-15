@@ -1,0 +1,151 @@
+body {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5f);
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #ffffff;
+    
+}
+
+div {
+    background-color: #8ea8ce;
+    
+}
+/* #content {
+    width: 100%;
+    height: 100vh;    cd Preset/Nvbar/
+} */
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Центрує навігацію по горизонталі */
+    align-items: center; /* Вирівнює елементи по вертикалі */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Робить список горизонтальним */
+    gap: 20px; /* Відступи між пунктами меню */
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+   font-size: 18px;
+  
+}
+
+
+main {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1200px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.6;
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+}
+
+main > * {
+    position: relative;
+    z-index: 1;
+}
+
+main h1, main p {
+    margin: 0 0 20px;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main a {
+    color: #ff7849;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+main a:hover {
+    color: #ffa07a;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+main ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+a {
+    color: #ff7849;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+    color: #ffa07a;
+    text-shadow: 0 2px 4px rgba(255, 120, 73, 0.5);
+}
+
+a:active {
+    color: #ff4500;
+    text-shadow: 0 2px 4px rgba(255, 69, 0, 0.5);
+}
+
+.parallax {
+    background-image: url('background.jpg'); /* Замініть на шлях до вашого зображення */
+    background-attachment: fixed; /* Ефект паралаксу */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 20px; /* Відступи для контенту */
+    color: #ffffff; /* Білий текст для контрасту */
+}
+
+.parallax h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.parallax p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.video-list  li {
+    list-style: none;
+    padding: 23px;
+
+}
+
+.video-list  {
+    display: flex;
+    margin : 0;
+    flex-wrap: wrap; /* Дозволяє переносити відео на новий рядок */
+}
+
+iframe {
+    border: none;
+}
